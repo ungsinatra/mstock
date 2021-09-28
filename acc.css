@@ -1,0 +1,162 @@
+body {
+    margin:0;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+    
+    
+}
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+/*Container*/
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    
+}
+
+
+
+/*header//////////////////////////*/
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100px;
+    
+}
+.header__iner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    padding: 35px 0;
+    align-items: center;
+}
+
+
+/*nav
+//////////////////////////*/
+.nav{
+    display: flex;
+    font-size: 13px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    
+}
+.nav_link{
+    margin-left: 40px;
+    color: #000;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .2s;
+    
+    
+    
+    
+}
+.nav_link:first-child{
+    margin-left: 0px;
+}
+.nav_link:hover{
+    
+    opacity: 1;
+
+    
+}
+/*advice*/
+
+.advice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.advice_item{
+    margin-left: 160px;
+    margin-top: 150px;
+    width: 50%;
+}
+
+.advice_item img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input{
+    height: 45px; 
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #6a765a;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: #333;
+}
+.form_title{
+    
+    font-size: 24px;
+    font-weight: 700;
+    color:#333 ;
+    margin-bottom: 50px;
+    
+}
+
+.sec_container{
+    max-width:600px;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.sec_container h2{
+    line-height: 1;
+}
+
+.form_field{
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.form_field input, .form_field textarea{
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+}
+
+.form_field textarea{
+    resize: none;
+}
+
+/*buttons*/
+
+.button{
+    display: block;
+    height: 60px ;
+    background-color: #000;
+    color: #ffff;
+    border-radius: 15px;
+    width: 300px;
+    text-transform: uppercase;
+    
+    border-style: none;
+}
+
+.button:hover{
+    background-color: rgb(110, 106, 106);
+}
